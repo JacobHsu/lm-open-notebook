@@ -1,3 +1,5 @@
+> 🇬🇧 English (this page) ｜ 🇹🇼 [中文版](index.zh.md)
+
 # Open Notebook - Start Here
 
 **Open Notebook** is a privacy-focused AI research assistant. Upload documents, chat with AI, generate notes, and create podcasts—all with complete control over your data.

@@ -1,3 +1,5 @@
+> 🇬🇧 English (this page) ｜ 🇹🇼 [中文版](quick-start-openai.zh.md)
+
 # Quick Start - OpenAI (5 minutes)
 
 Get Open Notebook running with OpenAI's GPT models. Fast, powerful, and simple.

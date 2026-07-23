@@ -1,3 +1,5 @@
+> 🇬🇧 English (this page) ｜ 🇹🇼 [中文版](quick-start-local.zh.md)
+
 # Quick Start - Local & Private (5 minutes)
 
 Get Open Notebook running with **100% local AI** using Ollama. No cloud API keys needed, completely private.

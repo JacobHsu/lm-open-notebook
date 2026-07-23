@@ -1,3 +1,5 @@
+> 🇬🇧 English (this page) ｜ 🇹🇼 [中文版](quick-start-cloud.zh.md)
+
 # Quick Start - Cloud AI Providers (5 minutes)
 
 Get Open Notebook running with **Anthropic, Google, Groq, or other cloud providers**. Same simplicity as OpenAI, with more choices.

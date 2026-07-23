@@ -15,7 +15,7 @@ services:
       # for local debugging (e.g. Surrealist, `surreal sql`). Exposing this
       # on 0.0.0.0 would let anyone who can reach the host connect with the
       # default root:root credentials.
-      - "127.0.0.1:8000:8000"
+      - "127.0.0.1:8010:8000"
     volumes:
       - ./surreal_data:/mydata
     environment:
@@ -29,9 +29,9 @@ services:
       - "8502:8502"  # Web UI
       - "5055:5055"  # REST API
     environment:
-      # REQUIRED: Change this to your own secret string
+      # REQUIRED: set OPEN_NOTEBOOK_ENCRYPTION_KEY in your .env file (see .env.example)
       # This encrypts your API keys in the database
-      - OPEN_NOTEBOOK_ENCRYPTION_KEY=change-me-to-a-secret-string
+      - OPEN_NOTEBOOK_ENCRYPTION_KEY=${OPEN_NOTEBOOK_ENCRYPTION_KEY:?Set OPEN_NOTEBOOK_ENCRYPTION_KEY in your .env file}
 
       # Database connection. SURREAL_USER / SURREAL_PASSWORD default to root:root
       # for local use; override them in a .env file before exposing the instance

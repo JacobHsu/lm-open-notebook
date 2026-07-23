@@ -1,3 +1,5 @@
+> 🇬🇧 English (this page) ｜ 🇹🇼 [中文版](quick-start-external-ollama.zh.md)
+
 # Quick Start - External Ollama
 
 Run Open Notebook with a **separately installed Ollama** (not via Docker). This avoids Docker running the Ollama service while you use your own local Ollama installation.
